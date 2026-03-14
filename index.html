@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Apple</title>
+    </head>
+<body>
+    <section id="section1">
+    <div class="container">
+         <header>
+         <a href="#"><img src="image/logo.png" class="logo"></a>
+         <ul>
+          <li><a href="#">Home</a></li>
+                <li><a href="#">Producats</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </header>
+         <div class="content">
+         <div class="text">
+         <h2>I Phone17 Pro max</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Ut sint enim accusantium hic.
+         Accusantium earum, qui minima eligendi consequatur placeat.</p>
+         <a href="#">All Producats</a>
+         </div>
+             <div class="image">
+                  <img class="img"  src="image/0.png">
+             </div>
+         </div>
+         <div class="icons">
+            <img onclick="phones(this.src); colors('#000')" src="image/0.png">
+            <img onclick="phones(this.src); colors('#247ec8')" src="image/1.png">
+            <img onclick="phones(this.src); colors('#1e1e1e')" src="image/2.png">
+            <img onclick="phones(this.src); colors('#c79b53')" src="image/3.png">
+            <img onclick="phones(this.src); colors('#000')" src="image/4.png">
+        </div>
+    </div>
+    </section>
+    <section id="section2">
+<!--X/O Game-->
+         <div class="game">
+
+         <div class="title"><span>X O</span> Game</div>
+         <div class="square" id="item1" onclick="game(this.id)"></div>
+         <div class="square" id="item2" onclick="game(this.id)"></div>
+         <div class="square" id="item3" onclick="game(this.id)"></div>
+
+         <div class="square" id="item4" onclick="game(this.id)"></div>
+         <div class="square" id="item5" onclick="game(this.id)"></div>
+         <div class="square" id="item6" onclick="game(this.id)"></div>
+
+         <div class="square" id="item7" onclick="game(this.id)"></div>
+         <div class="square" id="item8" onclick="game(this.id)"></div>
+         <div class="square" id="item9" onclick="game(this.id)"></div>
+         </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
